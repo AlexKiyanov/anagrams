@@ -10,7 +10,8 @@ local.properties
 .loadpath
 .classpath
 .project
-
+.idea
+target
 # Code Recommenders
 .recommenders/
 
