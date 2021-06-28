@@ -22,11 +22,11 @@ public class AnagramMaker {
             throw new IllegalArgumentException("sentence is null");
         }
 
-        if(sentence.isEmpty()) {
-            throw  new IllegalArgumentException("sentence is empty");
+        if (sentence.isEmpty()) {
+            throw new IllegalArgumentException("sentence is empty");
         }
 
-        if(sentence.isBlank()){
+        if (sentence.isBlank()) {
             throw new IllegalArgumentException("sentence contains only whitespaces");
         }
     }
